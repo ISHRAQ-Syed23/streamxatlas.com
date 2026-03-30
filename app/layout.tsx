@@ -17,6 +17,19 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-jet text-ghost">
         <nav className="fixed top-0 left-0 right-0 z-50 bg-jet border-b border-slate border-opacity-20">
+  <div className="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="/" className="text-lg font-bold whitespace-nowrap">
+      ishraq
+    </a>
+    <div className="flex gap-4 md:gap-8 text-xs md:text-sm overflow-x-auto">
+      <a href="/" className="hover:opacity-70 whitespace-nowrap">home</a>
+      <a href="/projects" className="hover:opacity-70 whitespace-nowrap">projects</a>
+      <a href="/now" className="hover:opacity-70 whitespace-nowrap">now</a>
+      <a href="/tools" className="hover:opacity-70 whitespace-nowrap">tools</a>
+      <a href="/admin" className="hover:opacity-70 whitespace-nowrap">admin</a>
+    </div>
+  </div>
+</nav>
           <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="/" className="text-xl font-bold">
               ishraq
